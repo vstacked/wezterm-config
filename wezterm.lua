@@ -20,7 +20,7 @@ config.use_fancy_tab_bar = false
 config.status_update_interval = 1000
 
 config.font = wezterm.font("CaskaydiaCove Nerd Font")
-config.font_size = 9.5
+config.font_size = 10.25
 
 config.window_padding = {
 	left = 0,
@@ -99,7 +99,7 @@ wezterm.on("update-status", function(window, pane)
 
 	-- Left status
 	window:set_left_status(wezterm.format({
-		{ Background = { Color = "#5DE4C7" } },
+		{ Background = { Color = "#506477" } },
 		{ Text = prefix },
 		ARROW_FOREGROUND,
 		{ Text = SOLID_LEFT_ARROW },
